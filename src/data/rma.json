@@ -1,0 +1,247 @@
+[
+    {
+        "id": "RMA-2025-001",
+        "customer": "Kiran Shah",
+        "mobile": "9876543210",
+        "email": "kiran.shah@email.com",
+        "address": "123 Main Street, Surat",
+        "partName": "Samsung 500GB SSD 870 EVO",
+        "serial": "SS123456789",
+        "purchaseDate": "2025-09-15",
+        "warrantyYears": 3,
+        "warrantyEndDate": "2028-09-15",
+        "isUnderWarranty": true,
+        "source": "Premium IT Park",
+        "billNo": "INV-2025-0234",
+        "status": "Inbox",
+        "serviceCenter": "Samsung Service Center",
+        "defectDescription": "SSD not detected in BIOS, sudden failure",
+        "replacementCharge": 0,
+        "notes": "",
+        "otp": "",
+        "otpGeneratedAt": null,
+        "inboxDate": "2025-11-28",
+        "inCompanyDate": null,
+        "outboxDate": null,
+        "deliveredDate": null,
+        "history": [
+            {
+                "date": "2025-11-28T10:30:00Z",
+                "action": "RMA Created - Part received from customer",
+                "status": "Inbox"
+            }
+        ],
+        "createdDate": "2025-11-28",
+        "updatedAt": "2025-11-28T10:30:00Z"
+    },
+    {
+        "id": "RMA-2025-002",
+        "customer": "Mehul Patel",
+        "mobile": "9123456789",
+        "email": "",
+        "address": "456 Ring Road, Surat",
+        "partName": "Kingston 16GB DDR4 RAM 3200MHz",
+        "serial": "KS987654321",
+        "purchaseDate": "2025-10-20",
+        "warrantyYears": 2,
+        "warrantyEndDate": "2027-10-20",
+        "isUnderWarranty": true,
+        "source": "Premium IT Park",
+        "billNo": "INV-2025-0456",
+        "status": "In-Company",
+        "serviceCenter": "Kingston RMA Center",
+        "defectDescription": "Blue screen errors, memory test failed",
+        "replacementCharge": 100,
+        "notes": "Courier sent on 26th",
+        "otp": "",
+        "otpGeneratedAt": null,
+        "inboxDate": "2025-11-25",
+        "inCompanyDate": "2025-11-26",
+        "outboxDate": null,
+        "deliveredDate": null,
+        "history": [
+            {
+                "date": "2025-11-25T14:00:00Z",
+                "action": "RMA Created - Part received from customer",
+                "status": "Inbox"
+            },
+            {
+                "date": "2025-11-26T11:00:00Z",
+                "action": "Sent to company/service center",
+                "status": "In-Company"
+            }
+        ],
+        "createdDate": "2025-11-25",
+        "updatedAt": "2025-11-26T11:00:00Z"
+    },
+    {
+        "id": "RMA-2025-003",
+        "customer": "Ravi Kumar",
+        "mobile": "9988776655",
+        "email": "ravi.kumar@gmail.com",
+        "address": "789 Tech Park, Surat",
+        "partName": "Logitech MX Master 3 Wireless Mouse",
+        "serial": "LG456789123",
+        "purchaseDate": "2025-11-01",
+        "warrantyYears": 1,
+        "warrantyEndDate": "2026-11-01",
+        "isUnderWarranty": true,
+        "source": "Amazon",
+        "billNo": "AMZ-2025-9876",
+        "status": "Outbox",
+        "serviceCenter": "Logitech Service",
+        "defectDescription": "Scroll wheel not working, left click double-clicking",
+        "replacementCharge": 50,
+        "notes": "Replacement received, call customer",
+        "otp": "",
+        "otpGeneratedAt": null,
+        "inboxDate": "2025-11-20",
+        "inCompanyDate": "2025-11-22",
+        "outboxDate": "2025-12-10",
+        "deliveredDate": null,
+        "history": [
+            {
+                "date": "2025-11-20T09:00:00Z",
+                "action": "RMA Created - Part received from customer",
+                "status": "Inbox"
+            },
+            {
+                "date": "2025-11-22T15:00:00Z",
+                "action": "Sent to company/service center",
+                "status": "In-Company"
+            },
+            {
+                "date": "2025-12-10T12:00:00Z",
+                "action": "Replacement received from company",
+                "status": "Outbox"
+            }
+        ],
+        "createdDate": "2025-11-20",
+        "updatedAt": "2025-12-10T12:00:00Z"
+    },
+    {
+        "id": "RMA-2025-004",
+        "customer": "Sneha Desai",
+        "mobile": "9876500000",
+        "email": "sneha.desai@company.com",
+        "address": "321 Corporate Lane, Surat",
+        "partName": "Dell 65W Laptop Charger",
+        "serial": "DL789456123",
+        "purchaseDate": "2025-08-10",
+        "warrantyYears": 1,
+        "warrantyEndDate": "2026-08-10",
+        "isUnderWarranty": true,
+        "source": "Premium IT Park",
+        "billNo": "INV-2025-0123",
+        "status": "Delivered",
+        "serviceCenter": "Dell Service Center",
+        "defectDescription": "Charger not working, no power output",
+        "replacementCharge": 0,
+        "notes": "Customer very happy with quick service",
+        "otp": "",
+        "otpGeneratedAt": null,
+        "inboxDate": "2025-11-15",
+        "inCompanyDate": "2025-11-16",
+        "outboxDate": "2025-11-28",
+        "deliveredDate": "2025-11-29",
+        "history": [
+            {
+                "date": "2025-11-15T10:00:00Z",
+                "action": "RMA Created - Part received from customer",
+                "status": "Inbox"
+            },
+            {
+                "date": "2025-11-16T14:00:00Z",
+                "action": "Sent to company/service center",
+                "status": "In-Company"
+            },
+            {
+                "date": "2025-11-28T11:00:00Z",
+                "action": "Replacement received from company",
+                "status": "Outbox"
+            },
+            {
+                "date": "2025-11-29T16:00:00Z",
+                "action": "Delivered to customer with OTP verification",
+                "status": "Delivered"
+            }
+        ],
+        "createdDate": "2025-11-15",
+        "updatedAt": "2025-11-29T16:00:00Z"
+    },
+    {
+        "id": "RMA-2025-005",
+        "customer": "Amit Sharma",
+        "mobile": "9898989898",
+        "email": "",
+        "address": "",
+        "partName": "Corsair Vengeance 32GB (16x2) DDR5 RAM",
+        "serial": "CR202512345",
+        "purchaseDate": "2024-12-01",
+        "warrantyYears": 2,
+        "warrantyEndDate": "2026-12-01",
+        "isUnderWarranty": true,
+        "source": "Flipkart",
+        "billNo": "FK-2024-5678",
+        "status": "Inbox",
+        "serviceCenter": "Corsair Support",
+        "defectDescription": "One stick showing intermittent errors in memtest",
+        "replacementCharge": 0,
+        "notes": "",
+        "otp": "",
+        "otpGeneratedAt": null,
+        "inboxDate": "2025-12-15",
+        "inCompanyDate": null,
+        "outboxDate": null,
+        "deliveredDate": null,
+        "history": [
+            {
+                "date": "2025-12-15T11:00:00Z",
+                "action": "RMA Created - Part received from customer",
+                "status": "Inbox"
+            }
+        ],
+        "createdDate": "2025-12-15",
+        "updatedAt": "2025-12-15T11:00:00Z"
+    },
+    {
+        "id": "RMA-2025-006",
+        "customer": "Priya Patel",
+        "mobile": "9876512345",
+        "email": "priya@office.com",
+        "address": "Central Business Hub, Surat",
+        "partName": "HP Pavilion Keyboard",
+        "serial": "HP-KB-98765",
+        "purchaseDate": "2024-06-15",
+        "warrantyYears": 1,
+        "warrantyEndDate": "2025-06-15",
+        "isUnderWarranty": false,
+        "source": "Premium IT Park",
+        "billNo": "INV-2024-0890",
+        "status": "In-Company",
+        "serviceCenter": "HP Service Center",
+        "defectDescription": "Multiple keys not responding, possible liquid damage",
+        "replacementCharge": 500,
+        "notes": "Out of warranty, physical damage - charge applicable",
+        "otp": "",
+        "otpGeneratedAt": null,
+        "inboxDate": "2025-12-10",
+        "inCompanyDate": "2025-12-12",
+        "outboxDate": null,
+        "deliveredDate": null,
+        "history": [
+            {
+                "date": "2025-12-10T14:00:00Z",
+                "action": "RMA Created - Part received from customer",
+                "status": "Inbox"
+            },
+            {
+                "date": "2025-12-12T10:00:00Z",
+                "action": "Sent to company/service center",
+                "status": "In-Company"
+            }
+        ],
+        "createdDate": "2025-12-10",
+        "updatedAt": "2025-12-12T10:00:00Z"
+    }
+]

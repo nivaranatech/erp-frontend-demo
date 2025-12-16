@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "New Year",
+        "date": "2026-01-01",
+        "type": "Public",
+        "isRecurring": true,
+        "description": "New Year celebration"
+    },
+    {
+        "id": 2,
+        "name": "Republic Day",
+        "date": "2026-01-26",
+        "type": "Public",
+        "isRecurring": true,
+        "description": "Republic Day of India"
+    },
+    {
+        "id": 3,
+        "name": "Holi",
+        "date": "2026-03-17",
+        "type": "Public",
+        "isRecurring": false,
+        "description": "Festival of Colors"
+    },
+    {
+        "id": 4,
+        "name": "Good Friday",
+        "date": "2026-04-03",
+        "type": "Optional",
+        "isRecurring": false,
+        "description": "Good Friday"
+    },
+    {
+        "id": 5,
+        "name": "Independence Day",
+        "date": "2026-08-15",
+        "type": "Public",
+        "isRecurring": true,
+        "description": "Independence Day of India"
+    },
+    {
+        "id": 6,
+        "name": "Ganesh Chaturthi",
+        "date": "2026-08-27",
+        "type": "Public",
+        "isRecurring": false,
+        "description": "Ganesh Chaturthi Festival"
+    },
+    {
+        "id": 7,
+        "name": "Gandhi Jayanti",
+        "date": "2026-10-02",
+        "type": "Public",
+        "isRecurring": true,
+        "description": "Birth anniversary of Mahatma Gandhi"
+    },
+    {
+        "id": 8,
+        "name": "Diwali",
+        "date": "2026-10-21",
+        "type": "Public",
+        "isRecurring": false,
+        "description": "Festival of Lights"
+    },
+    {
+        "id": 9,
+        "name": "Diwali Vacation",
+        "date": "2026-10-22",
+        "type": "Public",
+        "isRecurring": false,
+        "description": "Diwali Vacation Day 2"
+    },
+    {
+        "id": 10,
+        "name": "Christmas",
+        "date": "2025-12-25",
+        "type": "Public",
+        "isRecurring": true,
+        "description": "Christmas Day"
+    }
+]

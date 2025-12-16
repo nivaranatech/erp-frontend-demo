@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-50 transition-colors duration-200;
+  }
+
+  /* Global reset for form elements in dark mode to prevent invisible text */
+  input,
+  select,
+  textarea {
+    @apply dark:bg-slate-900 dark:text-slate-100 dark:border-slate-700;
+  }
+}

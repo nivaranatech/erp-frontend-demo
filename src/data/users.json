@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Admin User",
+        "email": "admin@techerp.com",
+        "role": "Admin",
+        "department": "Management",
+        "status": "Active",
+        "lastLogin": "2025-11-29T10:00:00",
+        "joiningDate": "2020-01-15",
+        "leaveBalance": {
+            "casual": 12,
+            "sick": 10,
+            "earned": 15,
+            "compensatory": 0
+        }
+    },
+    {
+        "id": 2,
+        "name": "Rahul Sharma",
+        "email": "rahul@techerp.com",
+        "role": "Manager",
+        "department": "Sales",
+        "status": "Active",
+        "lastLogin": "2025-11-29T09:30:00",
+        "joiningDate": "2021-06-01",
+        "leaveBalance": {
+            "casual": 10,
+            "sick": 9,
+            "earned": 12,
+            "compensatory": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "Amit Patel",
+        "email": "amit@techerp.com",
+        "role": "Engineer",
+        "department": "Laptop Service",
+        "status": "Active",
+        "lastLogin": "2025-11-28T18:00:00",
+        "joiningDate": "2022-03-15",
+        "leaveBalance": {
+            "casual": 9.5,
+            "sick": 8,
+            "earned": 10,
+            "compensatory": 2
+        }
+    },
+    {
+        "id": 4,
+        "name": "Priya Singh",
+        "email": "priya@techerp.com",
+        "role": "Cashier",
+        "department": "Accounts",
+        "status": "Inactive",
+        "lastLogin": "2025-11-25T14:00:00",
+        "joiningDate": "2023-01-10",
+        "leaveBalance": {
+            "casual": 11,
+            "sick": 10,
+            "earned": 9,
+            "compensatory": 0
+        }
+    },
+    {
+        "id": 5,
+        "name": "Vikram Malhotra",
+        "email": "vikram@techerp.com",
+        "role": "Engineer",
+        "department": "Field Service",
+        "status": "Active",
+        "lastLogin": "2025-11-29T08:45:00",
+        "joiningDate": "2022-08-20",
+        "leaveBalance": {
+            "casual": 9,
+            "sick": 10,
+            "earned": 11,
+            "compensatory": 3
+        }
+    }
+]

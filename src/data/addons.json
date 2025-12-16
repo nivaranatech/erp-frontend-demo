@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "General Service (Laptop)",
+        "unit": "Per Visit",
+        "price": 350,
+        "gst": 18,
+        "description": "Cleaning, thermal paste replacement, fan check"
+    },
+    {
+        "id": 2,
+        "name": "OS Installation (Windows 10/11)",
+        "unit": "Per Installation",
+        "price": 500,
+        "gst": 18,
+        "description": "Clean install with drivers and basic software"
+    },
+    {
+        "id": 3,
+        "name": "Data Recovery (Level 1)",
+        "unit": "Fixed",
+        "price": 1500,
+        "gst": 18,
+        "description": "Software based recovery for deleted files"
+    },
+    {
+        "id": 4,
+        "name": "Onsite Visit Charge",
+        "unit": "Per Visit",
+        "price": 200,
+        "gst": 18,
+        "description": "Travel and basic diagnosis at customer location"
+    },
+    {
+        "id": 5,
+        "name": "Chip Level Repair (Motherboard)",
+        "unit": "Fixed",
+        "price": 2500,
+        "gst": 18,
+        "description": "Advanced repair for logic board issues"
+    }
+]

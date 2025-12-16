@@ -1,0 +1,251 @@
+[
+    {
+        "id": "EST-2025-001",
+        "customer": "Ramesh Patel",
+        "mobile": "9876543210",
+        "email": "ramesh@example.com",
+        "address": "Shop No. 12, Ghoddod Road, Surat",
+        "date": "2025-11-29",
+        "validityDays": 15,
+        "status": "Draft",
+        "version": 1,
+        "subtotal": 31000,
+        "gstAmount": 5580,
+        "total": 36580,
+        "items": [
+            {
+                "itemId": 1,
+                "name": "Intel Core i5 12400F",
+                "sku": "CPU-I5-12400F",
+                "category": "Processors",
+                "price": 14500,
+                "qty": 1,
+                "gstPercent": 18,
+                "discount": 0
+            },
+            {
+                "itemId": 2,
+                "name": "Gigabyte B660M DS3H",
+                "sku": "MB-B660M",
+                "category": "Motherboards",
+                "price": 12000,
+                "qty": 1,
+                "gstPercent": 18,
+                "discount": 0
+            },
+            {
+                "itemId": 3,
+                "name": "Kingston 16GB DDR4",
+                "sku": "RAM-K16G-DDR4",
+                "category": "Memory",
+                "price": 4500,
+                "qty": 1,
+                "gstPercent": 18,
+                "discount": 0
+            }
+        ],
+        "notes": "Gaming PC build for customer",
+        "auditTrail": [
+            {
+                "date": "2025-11-29T10:30:00Z",
+                "user": "Admin User",
+                "action": "Created",
+                "details": "Estimate created for Ramesh Patel"
+            }
+        ]
+    },
+    {
+        "id": "EST-2025-002",
+        "customer": "Suresh Kumar",
+        "mobile": "9898989898",
+        "email": "suresh.k@gmail.com",
+        "address": "Ring Road, Surat",
+        "date": "2025-11-28",
+        "validityDays": 15,
+        "status": "Sent",
+        "version": 2,
+        "subtotal": 5000,
+        "gstAmount": 900,
+        "total": 5900,
+        "items": [
+            {
+                "itemId": 5,
+                "name": "Dell Laptop Screen 15.6\"",
+                "sku": "SCR-DELL-156",
+                "category": "Screens",
+                "price": 4500,
+                "qty": 1,
+                "gstPercent": 18,
+                "discount": 0
+            },
+            {
+                "itemId": 10,
+                "name": "Service Charge",
+                "sku": "SVC-001",
+                "category": "Services",
+                "price": 500,
+                "qty": 1,
+                "gstPercent": 18,
+                "discount": 0
+            }
+        ],
+        "notes": "Laptop screen replacement service",
+        "auditTrail": [
+            {
+                "date": "2025-11-28T09:00:00Z",
+                "user": "Admin User",
+                "action": "Created",
+                "details": "Estimate created for Suresh Kumar"
+            },
+            {
+                "date": "2025-11-28T14:30:00Z",
+                "user": "Admin User",
+                "action": "Sent",
+                "details": "Estimate sent to customer"
+            }
+        ]
+    },
+    {
+        "id": "EST-2025-003",
+        "customer": "Tech Solutions Pvt Ltd",
+        "mobile": "9988776655",
+        "email": "procurement@techsolutions.com",
+        "address": "Industrial Estate, Surat",
+        "date": "2025-11-27",
+        "validityDays": 30,
+        "status": "Accepted",
+        "version": 1,
+        "subtotal": 125000,
+        "gstAmount": 22500,
+        "total": 147500,
+        "items": [
+            {
+                "itemId": 4,
+                "name": "Office PC Build i3",
+                "sku": "PC-OFC-I3",
+                "category": "Desktop PCs",
+                "price": 25000,
+                "qty": 5,
+                "gstPercent": 18,
+                "discount": 0
+            }
+        ],
+        "notes": "Bulk order for office setup - 5 units",
+        "auditTrail": [
+            {
+                "date": "2025-11-27T11:00:00Z",
+                "user": "Admin User",
+                "action": "Created",
+                "details": "Estimate created for Tech Solutions Pvt Ltd"
+            },
+            {
+                "date": "2025-11-27T15:00:00Z",
+                "user": "Admin User",
+                "action": "Sent",
+                "details": "Estimate sent to customer"
+            },
+            {
+                "date": "2025-11-28T10:00:00Z",
+                "user": "Admin User",
+                "action": "Accepted",
+                "details": "Customer accepted the quotation"
+            }
+        ]
+    },
+    {
+        "id": "EST-2025-004",
+        "customer": "Amit Shah",
+        "mobile": "9825123456",
+        "email": "amit.shah@email.com",
+        "address": "Adajan, Surat",
+        "date": "2025-11-25",
+        "validityDays": 15,
+        "status": "Converted",
+        "version": 1,
+        "subtotal": 48000,
+        "gstAmount": 8640,
+        "total": 56640,
+        "items": [
+            {
+                "itemId": 1,
+                "name": "HP Laptop 15s",
+                "sku": "LAP-HP-15S",
+                "category": "Laptops",
+                "price": 45000,
+                "qty": 1,
+                "gstPercent": 18,
+                "discount": 0
+            },
+            {
+                "itemId": 6,
+                "name": "Laptop Bag",
+                "sku": "BAG-LP-01",
+                "category": "Accessories",
+                "price": 1500,
+                "qty": 1,
+                "gstPercent": 18,
+                "discount": 0
+            },
+            {
+                "itemId": 7,
+                "name": "Wireless Mouse",
+                "sku": "MOU-WL-01",
+                "category": "Accessories",
+                "price": 1500,
+                "qty": 1,
+                "gstPercent": 18,
+                "discount": 0
+            }
+        ],
+        "notes": "Laptop with accessories",
+        "auditTrail": [
+            {
+                "date": "2025-11-25T09:30:00Z",
+                "user": "Admin User",
+                "action": "Created",
+                "details": "Estimate created for Amit Shah"
+            },
+            {
+                "date": "2025-11-26T11:00:00Z",
+                "user": "Admin User",
+                "action": "Converted to Order",
+                "details": "Estimate converted to order"
+            }
+        ]
+    },
+    {
+        "id": "EST-2025-005",
+        "customer": "Rajesh Electronics",
+        "mobile": "9879001234",
+        "email": "rajesh.ele@gmail.com",
+        "address": "Varachha Road, Surat",
+        "date": "2025-11-10",
+        "validityDays": 7,
+        "status": "Expired",
+        "version": 1,
+        "subtotal": 85000,
+        "gstAmount": 15300,
+        "total": 100300,
+        "items": [
+            {
+                "itemId": 8,
+                "name": "Server Rack 42U",
+                "sku": "SRV-RACK-42U",
+                "category": "Server Equipment",
+                "price": 85000,
+                "qty": 1,
+                "gstPercent": 18,
+                "discount": 0
+            }
+        ],
+        "notes": "Server rack quotation - expired",
+        "auditTrail": [
+            {
+                "date": "2025-11-10T14:00:00Z",
+                "user": "Admin User",
+                "action": "Created",
+                "details": "Estimate created for Rajesh Electronics"
+            }
+        ]
+    }
+]

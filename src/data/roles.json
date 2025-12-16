@@ -1,0 +1,136 @@
+{
+    "permissions": [
+        {
+            "id": "dashboard",
+            "label": "Dashboard",
+            "group": "Modules",
+            "description": "View dashboard and statistics"
+        },
+        {
+            "id": "user_management",
+            "label": "User Management",
+            "group": "Modules",
+            "description": "Manage users and roles"
+        },
+        {
+            "id": "departments",
+            "label": "Departments",
+            "group": "Modules",
+            "description": "Manage departments"
+        },
+        {
+            "id": "item_master",
+            "label": "Item Master",
+            "group": "Modules",
+            "description": "Manage items and inventory"
+        },
+        {
+            "id": "service_addons",
+            "label": "Service Addons",
+            "group": "Modules",
+            "description": "Manage service addons"
+        },
+        {
+            "id": "combinations",
+            "label": "Combinations",
+            "group": "Modules",
+            "description": "Manage part combinations"
+        },
+        {
+            "id": "estimates",
+            "label": "Estimates",
+            "group": "Modules",
+            "description": "Create and manage estimates"
+        },
+        {
+            "id": "orders",
+            "label": "Orders",
+            "group": "Modules",
+            "description": "Manage orders"
+        },
+        {
+            "id": "amc_contracts",
+            "label": "AMC Contracts",
+            "group": "Modules",
+            "description": "Manage AMC contracts"
+        },
+        {
+            "id": "complaints_jobs",
+            "label": "Complaints/Jobs",
+            "group": "Modules",
+            "description": "Manage service jobs"
+        },
+        {
+            "id": "rma",
+            "label": "Replacements (RMA)",
+            "group": "Modules",
+            "description": "Manage RMA entries"
+        },
+        {
+            "id": "stock_inventory",
+            "label": "Stock Inventory",
+            "group": "Modules",
+            "description": "Manage stock and inventory"
+        },
+        {
+            "id": "hr_leave",
+            "label": "HR & Leave",
+            "group": "Modules",
+            "description": "Manage HR and leave requests"
+        }
+    ],
+    "roles": [
+        {
+            "id": "manager",
+            "name": "Manager",
+            "description": "Can manage operations and view reports",
+            "permissions": [
+                "dashboard",
+                "departments",
+                "item_master",
+                "estimates",
+                "orders",
+                "amc_contracts",
+                "complaints_jobs",
+                "stock_inventory"
+            ],
+            "isSystem": true
+        },
+        {
+            "id": "engineer",
+            "name": "Engineer",
+            "description": "Field and In-shop technicians",
+            "permissions": [
+                "dashboard",
+                "complaints_jobs",
+                "rma",
+                "stock_inventory"
+            ],
+            "isSystem": true
+        },
+        {
+            "id": "sales",
+            "name": "Sales Executive",
+            "description": "Handles sales and estimates",
+            "permissions": [
+                "dashboard",
+                "item_master",
+                "estimates",
+                "orders"
+            ],
+            "isSystem": true
+        },
+        {
+            "id": "accountant",
+            "name": "Accountant",
+            "description": "Handles accounts and HR",
+            "permissions": [
+                "dashboard",
+                "orders",
+                "amc_contracts",
+                "hr_leave"
+            ],
+            "isSystem": true
+        }
+    ]
+}

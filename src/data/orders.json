@@ -1,0 +1,92 @@
+[
+    {
+        "id": "ORD-2025-001",
+        "customer": "Tech Solutions Pvt Ltd",
+        "mobile": "9988776655",
+        "email": "tech.solutions@email.com",
+        "address": "123 Business Park, Surat",
+        "date": "2025-11-28",
+        "status": "Completed",
+        "total": 125000,
+        "subtotal": 105932,
+        "gstAmount": 19068,
+        "paymentStatus": "Paid",
+        "items": [
+            {
+                "id": 1,
+                "name": "Office PC Build i3",
+                "price": 25000,
+                "qty": 5
+            }
+        ],
+        "createdAt": "2025-11-28T10:00:00"
+    },
+    {
+        "id": "ORD-2025-002",
+        "customer": "Amit Shah",
+        "mobile": "9876500000",
+        "email": "amit.shah@gmail.com",
+        "address": "456 Residency Road, Surat",
+        "date": "2025-11-29",
+        "status": "Pending",
+        "total": 55000,
+        "subtotal": 46610,
+        "gstAmount": 8390,
+        "paymentStatus": "Partial",
+        "paidAmount": 25000,
+        "items": [
+            {
+                "id": 2,
+                "name": "Gaming PC Build Ryzen 5",
+                "price": 55000,
+                "qty": 1
+            }
+        ],
+        "createdAt": "2025-11-29T11:00:00"
+    },
+    {
+        "id": "ORD-2025-003",
+        "customer": "Priya Patel",
+        "mobile": "9123456789",
+        "email": "priya.patel@company.com",
+        "address": "789 Tech Hub, Surat",
+        "date": "2025-11-29",
+        "status": "AMC Converted",
+        "total": 45000,
+        "subtotal": 38136,
+        "gstAmount": 6864,
+        "paymentStatus": "Paid",
+        "amcId": "AMC-2025-001",
+        "items": [
+            {
+                "id": 3,
+                "name": "HP Pavilion Laptop",
+                "price": 45000,
+                "qty": 1
+            }
+        ],
+        "createdAt": "2025-11-29T14:00:00"
+    },
+    {
+        "id": "ORD-2025-004",
+        "customer": "GlobalTech Industries",
+        "mobile": "9876543210",
+        "email": "purchase@globaltech.in",
+        "address": "Industrial Area, Phase 2, Surat",
+        "date": "2025-12-01",
+        "status": "Completed",
+        "total": 285000,
+        "subtotal": 241525,
+        "gstAmount": 43475,
+        "paymentStatus": "Paid",
+        "items": [
+            {
+                "id": 4,
+                "name": "Dell Workstation",
+                "price": 95000,
+                "qty": 3
+            }
+        ],
+        "createdAt": "2025-12-01T09:00:00"
+    }
+]

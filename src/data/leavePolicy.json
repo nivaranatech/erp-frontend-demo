@@ -1,0 +1,109 @@
+{
+    "leaveTypes": [
+        {
+            "id": "casual",
+            "name": "Casual Leave",
+            "shortName": "CL",
+            "annualQuota": 12,
+            "maxCarryForward": 3,
+            "maxAccumulation": 15,
+            "minDaysPerRequest": 0.5,
+            "maxDaysPerRequest": 3,
+            "advanceNoticeDays": 1,
+            "description": "For personal/urgent work",
+            "requiresApproval": true,
+            "color": "#3B82F6"
+        },
+        {
+            "id": "sick",
+            "name": "Sick Leave",
+            "shortName": "SL",
+            "annualQuota": 10,
+            "maxCarryForward": 0,
+            "maxAccumulation": 10,
+            "minDaysPerRequest": 0.5,
+            "maxDaysPerRequest": 7,
+            "advanceNoticeDays": 0,
+            "description": "For medical reasons (certificate required for 3+ days)",
+            "requiresApproval": true,
+            "requiresMedicalCertificate": true,
+            "medicalCertificateAfterDays": 3,
+            "color": "#EF4444"
+        },
+        {
+            "id": "earned",
+            "name": "Earned Leave",
+            "shortName": "EL",
+            "annualQuota": 15,
+            "maxCarryForward": 10,
+            "maxAccumulation": 30,
+            "minDaysPerRequest": 1,
+            "maxDaysPerRequest": 15,
+            "advanceNoticeDays": 7,
+            "description": "Planned vacation/annual leave",
+            "requiresApproval": true,
+            "color": "#10B981"
+        },
+        {
+            "id": "compensatory",
+            "name": "Compensatory Off",
+            "shortName": "CO",
+            "annualQuota": 0,
+            "maxCarryForward": 0,
+            "maxAccumulation": 5,
+            "minDaysPerRequest": 0.5,
+            "maxDaysPerRequest": 2,
+            "advanceNoticeDays": 1,
+            "description": "For working on holidays/weekends",
+            "requiresApproval": true,
+            "earnedByWorking": true,
+            "color": "#8B5CF6"
+        },
+        {
+            "id": "unpaid",
+            "name": "Leave Without Pay",
+            "shortName": "LWP",
+            "annualQuota": 0,
+            "maxCarryForward": 0,
+            "maxAccumulation": 999,
+            "minDaysPerRequest": 1,
+            "maxDaysPerRequest": 30,
+            "advanceNoticeDays": 3,
+            "description": "Unpaid leave when balance exhausted",
+            "requiresApproval": true,
+            "affectsSalary": true,
+            "color": "#6B7280"
+        }
+    ],
+    "approvalWorkflow": {
+        "levels": [
+            {
+                "level": 1,
+                "approverRole": "Manager",
+                "canSkipTo": 2
+            },
+            {
+                "level": 2,
+                "approverRole": "Admin",
+                "isFinal": true
+            }
+        ],
+        "autoApproveAfterDays": 3,
+        "allowSelfApprovalForManagers": false
+    },
+    "settings": {
+        "financialYearStart": "04-01",
+        "excludeWeekendsFromCount": true,
+        "weekendDays": [
+            0,
+            6
+        ],
+        "excludeHolidaysFromCount": true,
+        "allowHalfDay": true,
+        "halfDayTypes": [
+            "First Half",
+            "Second Half"
+        ],
+        "minBalanceForNewRequest": 0
+    }
+}

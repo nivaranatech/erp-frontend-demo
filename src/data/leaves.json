@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "employee": "Amit Patel",
+        "userId": 3,
+        "leaveType": "sick",
+        "startDate": "2025-12-05",
+        "endDate": "2025-12-06",
+        "days": 2,
+        "halfDay": null,
+        "status": "Approved",
+        "reason": "Medical checkup and follow-up",
+        "appliedDate": "2025-11-28",
+        "approvalHistory": [
+            {
+                "level": 1,
+                "approverRole": "Manager",
+                "approverName": "Rahul Sharma",
+                "action": "Approved",
+                "date": "2025-11-28T14:30:00",
+                "comments": "Approved"
+            },
+            {
+                "level": 2,
+                "approverRole": "Admin",
+                "approverName": "Admin User",
+                "action": "Approved",
+                "date": "2025-11-28T16:00:00",
+                "comments": "Final approval"
+            }
+        ],
+        "createdAt": "2025-11-28T10:00:00"
+    },
+    {
+        "id": 2,
+        "employee": "Vikram Malhotra",
+        "userId": 5,
+        "leaveType": "casual",
+        "startDate": "2025-12-10",
+        "endDate": "2025-12-12",
+        "days": 3,
+        "halfDay": null,
+        "status": "Pending",
+        "reason": "Personal work and family function",
+        "appliedDate": "2025-11-29",
+        "approvalHistory": [],
+        "createdAt": "2025-11-29T09:00:00"
+    },
+    {
+        "id": 3,
+        "employee": "Priya Singh",
+        "userId": 4,
+        "leaveType": "earned",
+        "startDate": "2025-12-20",
+        "endDate": "2025-12-27",
+        "days": 6,
+        "halfDay": null,
+        "status": "Pending",
+        "reason": "Family vacation to hometown",
+        "appliedDate": "2025-11-29",
+        "approvalHistory": [
+            {
+                "level": 1,
+                "approverRole": "Manager",
+                "approverName": "Rahul Sharma",
+                "action": "Approved",
+                "date": "2025-11-30T10:00:00",
+                "comments": "Approved, please ensure handover"
+            }
+        ],
+        "createdAt": "2025-11-29T11:00:00"
+    },
+    {
+        "id": 4,
+        "employee": "Rahul Sharma",
+        "userId": 2,
+        "leaveType": "sick",
+        "startDate": "2025-11-25",
+        "endDate": "2025-11-25",
+        "days": 1,
+        "halfDay": null,
+        "status": "Rejected",
+        "reason": "Fever",
+        "appliedDate": "2025-11-24",
+        "approvalHistory": [
+            {
+                "level": 1,
+                "approverRole": "Admin",
+                "approverName": "Admin User",
+                "action": "Rejected",
+                "date": "2025-11-24T15:00:00",
+                "comments": "Important client meeting scheduled. Please reschedule if possible."
+            }
+        ],
+        "createdAt": "2025-11-24T10:00:00"
+    },
+    {
+        "id": 5,
+        "employee": "Amit Patel",
+        "userId": 3,
+        "leaveType": "casual",
+        "startDate": "2025-12-18",
+        "endDate": "2025-12-18",
+        "days": 0.5,
+        "halfDay": "First Half",
+        "status": "Pending",
+        "reason": "Bank work",
+        "appliedDate": "2025-12-10",
+        "approvalHistory": [],
+        "createdAt": "2025-12-10T08:00:00"
+    }
+]
